@@ -1,0 +1,29 @@
+body {
+    background-image: url(web_background_img.png);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: 64,64,64;
+}
+
+.homelist {
+    list-style: none; 
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#collapse:hover {
+    background-color: gray;
+}
+#collapse {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
