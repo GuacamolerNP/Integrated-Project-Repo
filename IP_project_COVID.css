@@ -11,7 +11,12 @@ body {
 a {
     color: 64,64,64;
 }
-
+img {
+    float: left;
+}
+img:hover {
+    opacity: 60%;
+}
 .homelist {
     list-style: none; 
     display: inline-block;
