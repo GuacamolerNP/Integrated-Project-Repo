@@ -49,4 +49,5 @@ p {
 .symptomList li {
     list-style-type: none;
     display: inline-flex;
+    padding: 10px;
 }
