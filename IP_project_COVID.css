@@ -14,7 +14,7 @@ a {
 img {
     float: left;
 }
-img:hover {
+.topbar img:hover {
     opacity: 60%;
 }
 .homelist {
