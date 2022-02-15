@@ -3,7 +3,7 @@ body {
     size: 30px;
     background-image: url(web_background_2.jpg);
     background-position: top center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: repeat;
     background-color: white;
 }
@@ -42,4 +42,11 @@ p {
 .information div {
     padding: 1.5em;
 }
-
+.symptoms_banner {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.symptomList li {
+    list-style-type: none;
+    display: inline-flex;
+}
