@@ -17,6 +17,7 @@ p {
     margin: 50px 0px 0px 0px;
     background-color: rgb(224, 31, 69);
     padding: 13px 0px;
+    overflow: hidden;
 }
 .topbar a {
     text-align: center;
