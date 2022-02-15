@@ -29,7 +29,7 @@ p {
 }
 .topbar a:hover {
     background-color: rgb(255, 167, 185);
-    color: black;
+    color: rgb(77, 77, 77);
 }
 .topbar #home_button {
     background-color: rgb(240, 81, 112);
