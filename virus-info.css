@@ -3,13 +3,18 @@ body {
     size: 30px;
     background-image: url(web_background_2.jpg);
     background-position: top center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: repeat;
     background-color: white;
+    background-size: 100%;
 }
-h1 {
+
+h1{
     margin-bottom: 20px;
     color: rgb(57, 164, 235);
+}
+h2{
+    
 }
 p {
     font-size: 22px;

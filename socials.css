@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.topbar {
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(224, 31, 69);
+    padding: 13px 0px;
+    overflow: hidden;
+}
+.topbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+}
+.topbar a:hover {
+    background-color: rgb(255, 167, 185);
+    color: rgb(77, 77, 77);
+}
+.topbar #home_button {
+    background-color: rgb(240, 81, 112);
+}
