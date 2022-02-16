@@ -8,6 +8,17 @@ body {
     text-align: center;
     bottom: 0;
 }
+@media only screen and (max-width: 1300px) {
+    body {
+        background-image: url(web_background_img.png);
+        background-position: top center;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-size: 65% auto;
+    }
+}
 a {
     color: 64,64,64;
 }
