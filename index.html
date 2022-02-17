@@ -26,7 +26,7 @@
         }
         
         .collapsible:after {
-          content: '\25BD';
+          content: '\25BC';
           color: white;
           font-weight: bold;
           float: right;
@@ -34,7 +34,7 @@
         }
 
         .active:after {
-          content: "\25B7";
+          content: "\25B6";
         }
         .content {
           padding: 0 18px;
@@ -58,7 +58,17 @@
     </div>
     <button type = "button" class = "collapsible">Open Collapsible</button>
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row">
+          <div class="column">
+            <img src="https://www.nortonrosefulbright.com/-/media/images/nrf/thought-leadership/us/us_22920_masthead-webinar_state-of-the-union-covid-19-1920x1080.png?revision=c91c556e-ad5b-4781-b38f-65648edfbb61&revision=c91c556e-ad5b-4781-b38f-65648edfbb61" alt="COVID-19" style="width:640px">
+          </div>
+          <div class="column">
+            <img src="https://www.hotelmonterey.co.jp/upload_file/monterey/site/20200615_j.jpg" alt="COVID-19 Measures" style="width:640px">
+          </div>
+          <div class="column">
+            <img src="https://cdn-dfgjm.nitrocdn.com/JBkIYTtSWLmFpiUaQMqiubmKHLpERrrX/assets/static/optimized/rev-fd828e2/wp-content/uploads/2020/06/Social-Distancing.jpg" alt="Socials" style="width:640px">
+          </div>
+        </div>
     </div>
     <script> /*Leonard, please make a collapsible red button that opens three images as seen in the Adobe XD prototype, contact me if unclear*/
         var coll = document.getElementsByClassName("collapsible");
