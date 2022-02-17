@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ID project</title>
+    <title>ID Project</title>
     <meta charset="UTF-8">
     <script></script>
     <link href='IP_project_COVID.css' rel='stylesheet'>
-    <style>
+    <style> /*Stylesheet for collapsible*/
+        .collapsible {
+          background-color: #dd3030;
+          color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+        }
 
+        .active, .collapsible:hover {
+          background-color: #C00000;
+        }
+        
+        .collapsible:after {
+          content: '\25BC';
+          color: white;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+        }
+
+        .active:after {
+          content: "\25B6";
+        }
+        .content {
+          padding: 0 18px;
+          background-color: white;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+          position: fixed;
+          bottom: 10px;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
     </style>
 </head>
 <body>
@@ -18,7 +70,35 @@
         <li><a href="socials.html"><img src='' alt='to socials'></a></li>
     </ul>
     </div>
+    <button type = "button" class = "collapsible">Open Collapsible</button>
+    <div class="content">
+        <div class="row">
+          <div class="column">
+            <img src="https://www.nortonrosefulbright.com/-/media/images/nrf/thought-leadership/us/us_22920_masthead-webinar_state-of-the-union-covid-19-1920x1080.png?revision=c91c556e-ad5b-4781-b38f-65648edfbb61&revision=c91c556e-ad5b-4781-b38f-65648edfbb61" alt="COVID-19" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="https://www.hotelmonterey.co.jp/upload_file/monterey/site/20200615_j.jpg" alt="COVID-19 Measures" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="https://cdn-dfgjm.nitrocdn.com/JBkIYTtSWLmFpiUaQMqiubmKHLpERrrX/assets/static/optimized/rev-fd828e2/wp-content/uploads/2020/06/Social-Distancing.jpg" alt="Socials" style="width:100%">
+          </div>
+        </div>
+    </div>
     <script> /*Leonard, please make a collapsible red button that opens three images as seen in the Adobe XD prototype, contact me if unclear*/
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
     </script>
 </body>
 </html>
