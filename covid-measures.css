@@ -28,13 +28,13 @@ body {
     background-color: rgb(240, 81, 112);
 }
 
-h1 {
+h1, h2 {
     margin-top: 50px;
     color: rgb(235, 57, 57);
 }
 p {
     font-size: 22px;
-    color: rgb(90, 179, 238);
+    color: rgb(235, 57, 70);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
 }
