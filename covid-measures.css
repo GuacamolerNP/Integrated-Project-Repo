@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     background-position: top center;
     font-family: Arial, Helvetica, sans-serif;
-
+    size:30px;
 }
 
 .topbar {
@@ -26,4 +26,10 @@ body {
 }
 .topbar #home_button {
     background-color: rgb(240, 81, 112);
+}
+
+h1 {
+    margin-top: 50px;
+    color: rgb(235, 57, 57);
+
 }

@@ -35,7 +35,8 @@ h1{
     color: rgb(57, 164, 235);
 }
 h2{
-
+    opacity: 90%; margin-top: 40px; 
+    color:rgba(35, 86, 255, 0.993)
 }
 p {
     font-size: 22px;
