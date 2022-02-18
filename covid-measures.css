@@ -28,9 +28,12 @@ body {
     background-color: rgb(240, 81, 112);
 }
 
-h1, h2 {
+h1, h2, h3{
     margin-top: 50px;
     color: rgb(235, 57, 57);
+}
+h3 {
+    font-size: 30px;
 }
 p {
     font-size: 22px;
