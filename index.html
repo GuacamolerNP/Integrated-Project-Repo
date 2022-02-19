@@ -62,8 +62,6 @@
           float: left;
           width: 33.33%;
           padding: 5px;
-          background-color: red;
-          color: white;
         }
 
         .row::after {
@@ -71,16 +69,24 @@
           clear: both;
           display: table;
         }
+        
+        a:link, a:visited {
+          background-color: #FF0000;
+          color: white;
+          padding: 15px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+
+        a:hover, a:active {
+          background-color: #C00000;
+        }
     </style>
 </head>
 <body>
     <div style='bottom: 0; '>
     <button type="button"><img src="" alt="placeholder"></button>
-    <ul id="collapse">
-        <li><a href='virus-info.html'><img src=''alt="To COVID-19 Info"></a></li>
-        <li><a href='covid-measures.html'><img src="" alt="To Fighting Against COVID-19"></a></li>
-        <li><a href="socials.html"><img src='' alt='To Socials'></a></li>
-    </ul>
     </div>
     <button type = "button" class = "collapsible">Show COVID-19 Pages</button>
     <div class="content"> <!--Collapsible by Leonard-->
