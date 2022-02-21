@@ -134,7 +134,7 @@ span.psw {
   }
 }
 
-input[type=text], input[type=password] {
+input[type=text]2, input[type=password]2 {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -143,12 +143,12 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]2:focus, input[type=password]2:focus {
   background-color: #ddd;
   outline: none;
 }
 
-button {
+button2 {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -159,25 +159,25 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+button2:hover {
   opacity:1;
 }
 
-.cancelbtn {
+.cancelbtn2 {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
-.cancelbtn, .signupbtn {
+.cancelbtn2, .signupbtn {
   float: left;
   width: 50%;
 }
 
-.container {
+.container2 {
   padding: 16px;
 }
 
-.modal {
+.modal2 {
   display: none; 
   position: fixed; 
   z-index: 1; 
@@ -191,19 +191,19 @@ button:hover {
 }
 
 
-.modal-content {
+.modal-content2 {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
   border: 1px solid #888;
   width: 80%; 
 }
 
-hr {
+hr2 {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
  
-.close {
+.close2 {
   position: absolute;
   right: 35px;
   top: 15px;
@@ -212,20 +212,20 @@ hr {
   color: #f1f1f1;
 }
 
-.close:hover,
+.close2:hover,
 .close:focus {
   color: #f44336;
   cursor: pointer;
 }
 
-.clearfix::after {
+.clearfix2::after {
   content: "";
   clear: both;
   display: table;
 }
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+@media screen2 and (max-width: 300px) {
+  .cancelbtn2, .signupbtn {
      width: 100%;
   }
 }
