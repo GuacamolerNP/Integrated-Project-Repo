@@ -75,6 +75,28 @@
         </div>
       </form>
     </div>
+    
+    <h3>Upload your text and files here:</h3>
+        <form action="/action_page.php">
+          <label for="myfile">Select files:</label>
+          <input type="file" id="myfile" name="myfile" multiple><br><br>
+          <input type="submit">
+        </form>
+    
+    <h3>Enter your comments here:</h3>
+        <form action="/action_page.php">
+        <label for="w3review">Review of W3Schools:</label>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+          At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+          </textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+    <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+    <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+
+      
 
     <script>
     // Get the modal
@@ -86,6 +108,28 @@
             modal2.style.display = "none";
         }
     }
+     
+    var btn1 = document.querySelector('#green');
+    var btn2 = document.querySelector('#red');
+
+    btn1.addEventListener('click', function() {
+
+        if (btn2.classList.contains('red')) {
+          btn2.classList.remove('red');
+        } 
+      this.classList.toggle('green');
+
+    });
+
+    btn2.addEventListener('click', function() {
+
+        if (btn1.classList.contains('green')) {
+          btn1.classList.remove('green');
+        } 
+      this.classList.toggle('red');
+
+    });
+        
     </script>
 </body>
 </html>
