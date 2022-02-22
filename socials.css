@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 40px;
 }
 .topbar {
     margin: 50px 0px 0px 0px;
@@ -230,18 +230,14 @@ hr2 {
   }
 }
 
-body{
-  margin: 40px;
-}
-
-button{
+button3{
   cursor: pointer;
   outline: 0;
   color: #AAA;
 
 }
 
-.btn:focus {
+.btn3:focus {
   outline: none;
 }
 
