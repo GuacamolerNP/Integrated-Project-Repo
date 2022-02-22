@@ -218,7 +218,7 @@ hr2 {
   cursor: pointer;
 }
 
-.clearfix2::after {
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
