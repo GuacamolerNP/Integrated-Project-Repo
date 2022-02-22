@@ -148,7 +148,7 @@ input[type=text]2:focus, input[type=password]2:focus {
   outline: none;
 }
 
-button2 {
+.button2 {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -159,7 +159,7 @@ button2 {
   opacity: 0.9;
 }
 
-button2:hover {
+.button2:hover {
   opacity:1;
 }
 
