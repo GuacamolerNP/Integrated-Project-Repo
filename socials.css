@@ -134,7 +134,7 @@ span.psw {
   }
 }
 
-input[type=text]2, input[type=password]2 {
+input2[type=text], input2[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -143,7 +143,7 @@ input[type=text]2, input[type=password]2 {
   background: #f1f1f1;
 }
 
-input[type=text]2:focus, input[type=password]2:focus {
+input2[type=text]:focus, input2[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -218,7 +218,7 @@ hr2 {
   cursor: pointer;
 }
 
-.clearfix2::after {
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
